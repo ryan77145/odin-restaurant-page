@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  color: white;
+  background-color: tan;
+  text-align: center;
+  background-image: url("taco.png");
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+button {
+  font-family: inherit;
+  padding: 3px 8px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.home {
+  background-color: rgb(247, 180, 98);
+}
+
+.about{
+  background-color: rgb(57, 209, 57);
+}
+
+.menu {
+  background-color: rgb(237, 57, 57);
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.title {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 30px;
+}
+
+.subtext {
+  font-size: 20px;
+}
+

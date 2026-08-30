@@ -1,3 +1,4 @@
+import CopyWebpackPlugin from 'copy-webpack-plugin';
 import path from "node:path";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 
@@ -13,9 +14,22 @@ export default {
   devServer: {
     watchFiles: ["./src/template.html"],
   },
+  module: {
+    rules: [
+      {
+        test: /\.png$/i,
+        type: 'asset/resource',
+      },
+    ],
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/template.html",
     }),
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: 'src/styles.css', to: 'styles.css' }
+      ]
+    }),
   ],
-};
+}
