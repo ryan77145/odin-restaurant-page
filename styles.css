@@ -70,11 +70,15 @@ button:hover {
 }
 
 .title,
-.subtitle, .aboutTitle, .aboutSubtitle, .menuSubtitle{ 
+.subtitle,
+.aboutTitle,
+.aboutSubtitle,
+.menuSubtitle {
   font-size: 40px;
-  margin-top: 20px;
-  margin-bottom: 5px;
+  margin: 30px auto;
   border-bottom: 5px dotted white;
+  width: 50%;
+
 }
 
 .menuTitle {
@@ -84,44 +88,37 @@ button:hover {
 
 .subtext {
   font-size: 30px;
+  border: 4px solid white;
+  border-radius: 20px;
+  width: 50%;
+  margin: 5px auto;
+  padding: 10px;
 }
 
 #content {
   border: 10px solid white;
   border-radius: 20px;
   height: 100vh;
-  display: none;
-}
-
-#content.active {
-  display: block;
-}
-
-#aboutDiv {
-  border: 10px solid white;
-  border-radius: 20px;
-  height: 100vh;
-  display: none;
-}
-
-#aboutDiv.active {
-  display: block;
-}
-
-#menuDiv {
-  border: 10px solid white;
-  border-radius: 20px;
 }
 
 .subtext2,
 .summary,
-.contactInfoDiv, .menuContainer {
+.contactInfoDiv {
   border: 5px solid white;
   padding: 10px 5px;
   width: 50%;
   margin: 30px auto;
   border-radius: 20px;
   font-size: 30px;
+}
+
+.menuContainer {
+  margin: 20px auto;
+  border-radius: 20px;
+  font-size: 30px;
+  border: 5px solid white;
+  padding: 10px 5px;
+  width: 50%;
 }
 
 .summary,
@@ -136,12 +133,22 @@ button:hover {
   padding-top: 10px;
 }
 
-.itemTitle, .itemTitle2, .itemTitle3, .itemTitle4, .itemTitle5, .itemTitle6 {
+.itemTitle,
+.itemTitle2,
+.itemTitle3,
+.itemTitle4,
+.itemTitle5,
+.itemTitle6 {
   border-bottom: 3px dotted;
   margin-top: 20px;
 }
 
-.itemInfo, .itemInfo2, .itemInfo3, .itemInfo4, .itemInfo5, .itemInfo6 {
+.itemInfo,
+.itemInfo2,
+.itemInfo3,
+.itemInfo4,
+.itemInfo5,
+.itemInfo6 {
   width: 70%;
   margin: 0px auto;
 }
