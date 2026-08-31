@@ -70,13 +70,16 @@ button:hover {
 }
 
 .title,
-.subtitle {
+.subtitle, .aboutTitle, .aboutSubtitle, .menuSubtitle{ 
   font-size: 40px;
   margin-top: 20px;
   margin-bottom: 5px;
   border-bottom: 5px dotted white;
-  width: 80%;
-  margin: 40px auto;
+}
+
+.menuTitle {
+  font-size: 40px;
+  margin-bottom: 10px;
 }
 
 .subtext {
@@ -98,11 +101,21 @@ button:hover {
   border: 10px solid white;
   border-radius: 20px;
   height: 100vh;
+  display: none;
+}
+
+#aboutDiv.active {
+  display: block;
+}
+
+#menuDiv {
+  border: 10px solid white;
+  border-radius: 20px;
 }
 
 .subtext2,
 .summary,
-.contactInfoDiv {
+.contactInfoDiv, .menuContainer {
   border: 5px solid white;
   padding: 10px 5px;
   width: 50%;
@@ -114,4 +127,21 @@ button:hover {
 .summary,
 .contactInfo {
   font-size: 35px;
+}
+
+.menuContainer {
+  font-size: 20px;
+  width: 80%;
+  height: 70%;
+  padding-top: 10px;
+}
+
+.itemTitle, .itemTitle2, .itemTitle3, .itemTitle4, .itemTitle5, .itemTitle6 {
+  border-bottom: 3px dotted;
+  margin-top: 20px;
+}
+
+.itemInfo, .itemInfo2, .itemInfo3, .itemInfo4, .itemInfo5, .itemInfo6 {
+  width: 70%;
+  margin: 0px auto;
 }

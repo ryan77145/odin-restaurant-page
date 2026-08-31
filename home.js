@@ -1,14 +1,5 @@
 //select elements
 const contentDiv = document.querySelector("#content");
-const homeBtn = document.querySelector(".home");
-
-//create imgs/icons
-const tacoImg = document.createElement("img");
-tacoImg.src = "/assets/taco.png";
-const shrimpImg = document.createElement("img");
-shrimpImg.src = "/assets/shrimp.png";
-const chickenImg = document.createElement("img");
-chickenImg.src = "/assets/chicken.png";
 
 //create elements
 const title = document.createElement("h1");
@@ -24,9 +15,6 @@ subtitle.setAttribute("class", "subtitle");
 subtextContainer.setAttribute("class", "subDiv");
 subtext.setAttribute("class", "subtext");
 subtext2.setAttribute("class", "subtext2");
-tacoImg.setAttribute("class", "tacoImg");
-chickenImg.setAttribute("class", "chickenImg");
-shrimpImg.setAttribute("class", "shrimpImg");
 summary.setAttribute("class", "summary");
 
 //add content
