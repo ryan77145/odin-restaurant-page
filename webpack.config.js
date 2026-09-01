@@ -10,10 +10,11 @@ export default {
   mode: "development",
   entry: "./src/index.js",
   output: {
-    filename: "bundle.js",
-    path: path.resolve(__dirname, "dist"),
-    clean: true,
-  },
+  filename: "bundle.js",
+  path: path.resolve(__dirname, "dist"),
+  publicPath: "/odin-restaurant-page/",
+  clean: true,
+},
   devServer: {
     static: "./dist",
     port: 8080,
