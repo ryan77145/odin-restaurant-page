@@ -18,7 +18,7 @@ nav {
   justify-content: center;
   width: 80vw;
   margin: 20px auto;
-  gap: 200px;
+  gap: 100px;
   position: fixed;
 }
 
@@ -60,7 +60,7 @@ button {
   background-size: cover;
   border: 2px solid transparent;
   background-color: tan;
-  background-image: url(assets/tomato.png);
+  background-image: url(/assets/tomato.png);
   width: 70px;
   height: 70px;
 }
@@ -74,11 +74,10 @@ button:hover {
 .aboutTitle,
 .aboutSubtitle,
 .menuSubtitle {
-  font-size: 40px;
+  font-size: 35px;
   margin: 30px auto;
   border-bottom: 5px dotted white;
   width: 50%;
-
 }
 
 .menuTitle {
@@ -98,7 +97,6 @@ button:hover {
 #content {
   border: 10px solid white;
   border-radius: 20px;
-  height: 100vh;
 }
 
 .subtext2,
@@ -118,7 +116,6 @@ button:hover {
   font-size: 30px;
   border: 5px solid white;
   padding: 10px 5px;
-  width: 50%;
 }
 
 .summary,
